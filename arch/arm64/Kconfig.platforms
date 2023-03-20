@@ -353,4 +353,14 @@ config ARCH_ZYNQMP
 	help
 	  This enables support for Xilinx ZynqMP Family
 
+config MACH_LENOVO_MSM8953
+    bool "Lenovo MSM8953 device"
+	help
+	  This enables support for Lenovo MSM8953 device
+
+config MACH_LENOVO_TB8804F
+    bool "Lenovo TB8804F"
+	help
+	  This enables support for Lenovo Xiaoxin Pad
+
 endmenu
