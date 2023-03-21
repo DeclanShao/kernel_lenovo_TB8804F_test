@@ -78,7 +78,7 @@
 };
 
 
-&pmi8950_fg {
+&qpnp_fg {
 	qcom,cold-bat-decidegc = <0x0>;
 	qcom,cold-hot-jeita-hysteresis = <0x14 0x14>;
 	qcom,cool-bat-decidegc = <0x96>;
