@@ -42,14 +42,6 @@
 				label = "pwm";
 			};
 		};
-		pmi_haptic: qcom,haptic@c000 {
-			qcom,actuator-type = "erm";
-			/delete-property/ qcom,lra-auto-res-mode;
-			/delete-property/ qcom,lra-high-z;
-			/delete-property/ qcom,lra-res-cal-period;
-			qcom,vmax-mv = <3000>;
-			qcom,wave-play-rate-us =<5263>;
-		};
 	};
 };
 
